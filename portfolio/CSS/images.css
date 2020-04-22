@@ -1,0 +1,19 @@
+/*--------------------------------------------------------------
+Images - reset 
+---------------------------------------------
+
+----------------*/
+
+.figure {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    border: 10px solid #ce9b53;
+    border-radius: 25% 0;
+    overflow: hidden;
+    
+     
+}
+
+
+

@@ -1,0 +1,60 @@
+/*--------------------------------------------------------------
+Header styles minus menu
+--------------------------------------------------------------*/
+
+.banner {
+    background-image: url("img_computer.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+   
+}
+ h1{
+    font-family: 'Tangerine', cursive;
+    width: 100%;
+    font-size: 2.3em;
+    padding:-1em -2em;
+    margin-top: -4.5em;
+    margin-left: 1em;
+        
+}
+h2{
+    font-family: 'Tangerine', cursive;
+    font-size: 1em;
+    color: black;
+    font-size: 2.1em;
+    text-shadow: white; 
+    margin-left: 2.5em;
+    color: #5dc2dd;
+    margin-bottom: -2em;
+    margin-left: 2em;
+}
+     
+@media screen and (min-width: 50em) {
+    .title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.site-title {
+    margin: 0;
+    padding:.2em .5em;
+    font-size: 2em;
+    font-weight: 300;
+    color: black;
+}
+
+.site-title a {
+    color: hsl(0, 0%, 20%);
+    text-decoration: none;
+}
+
+.site-title a:hover {
+    text-decoration: underline;
+}
+@media screen and (min-width: 365) {
+    h1,{
+      
+
+    } 
+}   
